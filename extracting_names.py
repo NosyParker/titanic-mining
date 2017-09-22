@@ -8,7 +8,3 @@ data_for_computing['FirstName'] = data_for_computing['Name'].str.extract(
 
 names = data_for_computing['FirstName'].value_counts()
 print(names)
-
-
-# print (data_for_computing.loc[data_for_computing["FirstName"] =='William'].count()["Name"])
-#print(data_for_computing["FirstName"])

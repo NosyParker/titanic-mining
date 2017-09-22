@@ -1,6 +1,6 @@
 import pandas
 
-data_for_computing = pandas.read_csv('Titanik.csv', sep=';', encoding='CP866', index_col='PassengerId')   #кодировка - CP866 т.к. Win7 русскоязычная
+data_for_computing = pandas.read_csv('Titanik.csv', sep=';', encoding='CP866', index_col='PassengerId') 
 
 female_number_stat = data_for_computing[data_for_computing['Sex'] == 'female'].count()['Sex']
 
